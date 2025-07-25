@@ -10,31 +10,35 @@ Use `headless_browser` parameter to run the bot via the CLI. Works great if runn
 
 ```python
 session = InstaPy(username='test', password='test', headless_browser=True)
-```
+InstaPy(username=insta_username,InstaPy(username=insta_username,
+        password=insta_password,
+        bypass_security_challenge_using='sms')
+        https://www.instagram.com/xee_0_?igsh=c3p1Z2c3Z3Q1MHczpassword=insta_password,
+        bypass_security_challenge_using='sms')```
 
 **(Alternative)**
 If the web driver you're using doesn't support headless mode (or the headless mode becomes very detectable), you can use the `nogui` parameter which displays the window out of view. Keep in mind, this parameter lacks support and ease of use, only supporting Linux based operating systems (or those that have Xvfb, Xephyr and Xvnc display software).
 
 ```python
 session = InstaPy(username='test', password='test', nogui=True)
-```
+```(qqq123@)
 
 ### Bypass Suspicious Login Attempt
-
+https://www.instagram.com/xee_0_?igsh=c3p1Z2c3Z3Q1MHcz
 InstaPy detects automatically if the Security Code Challenge
 is active, if yes, it will ask you for the Security Code on
-the terminal.
+the terminal. No.
 
-The Security Code is send to your Email or SMS by Instagram, Email is the default option, but you can choose SMS also with:
-
+The Security Code is send to your Email [+967774753130]or SMS by Instagram, Email is the default option, but you can choose SMS also with:
+qqq1235
 `bypass_security_challenge_using='sms'` or `bypass_security_challenge_using='email'`
 
 ```python
 InstaPy(username=insta_username,
         password=insta_password,
         bypass_security_challenge_using='sms')
-```
-
+```@xee_0_
+qqq123@
 ### Two Factor Authentication
 InstaPy detects automatically if the account is protected with the Two Factor Authentication, if yes InstaPy user need to provide the Security codes in the session constructor; at least one code is required.
 
@@ -137,7 +141,8 @@ session = InstaPy(username=insta_username,
   data-ad-format="fluid"
   data-ad-client="ca-pub-4875789012193531"
   data-ad-slot="9530237054"
-></ins>
+></ins>xee_0_
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+@xee_0_
