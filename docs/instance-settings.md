@@ -10,7 +10,11 @@ Use `headless_browser` parameter to run the bot via the CLI. Works great if runn
 
 ```python
 session = InstaPy(username='test', password='test', headless_browser=True)
-```
+InstaPy(username=insta_username,InstaPy(username=insta_username,
+        password=insta_password,
+        bypass_security_challenge_using='sms')
+        https://www.instagram.com/xee_0_?igsh=c3p1Z2c3Z3Q1MHczpassword=insta_password,qqq123@
+        bypass_security_challenge_using='sms')```
 
 **(Alternative)**
 If the web driver you're using doesn't support headless mode (or the headless mode becomes very detectable), you can use the `nogui` parameter which displays the window out of view. Keep in mind, this parameter lacks support and ease of use, only supporting Linux based operating systems (or those that have Xvfb, Xephyr and Xvnc display software).
